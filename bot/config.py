@@ -3,41 +3,41 @@ from os import getenv
 # TELEGRAM
 OWNER = int(getenv('OWNER'))
 if OWNER is None:
-    raise Exception("1232940388") 
+    raise Exception("id de telegram") 
 
 API_ID = int(getenv('API_ID'))
 if API_ID is None:
-    raise Exception("14429012") 
+    raise Exception("api id de telegram") 
 
 API_HASH = getenv('API_HASH')
 if API_HASH is None:
-    raise Exception("074d67326cfbcdc5550aeb7aac69d424") 
+    raise Exception("api hash de telegram") 
 
 TELEGRAM_TOKEN = getenv('TELEGRAM_TOKEN')
 if TELEGRAM_TOKEN is None:
-    raise Exception("5113761710:AAHqGq2BY33aucp3OL850siQ4UQPif5F5C0") 
+    raise Exception("token del bot de telegram") 
 
 # DATOS DEL MOODLE
 HOST = getenv('HOST')
 if HOST is None:
-    raise Exception("https://eduvirtual.uho.edu.cu/") 
+    raise Exception("url de la nube") 
 
 ACCOUNT = getenv('ACCOUNT')
 if ACCOUNT is None:
-    raise Exception("yeima") 
+    raise Exception("user de la moodle") 
 
 PASSWORD = getenv('PASSWORD')
 if PASSWORD is None:
-    raise Exception("*Yordan1") 
+    raise Exception("contraseña de la moodle") 
 
 # CUENTA DE MEGA
 PASS_MEGA = getenv('PASS_MEGA')
 if PASS_MEGA is None:
-    raise Exception("danipupo27") 
+    raise Exception("contraseña de mega") 
 
 GMAIL_MEGA = getenv('GMAIL_MEGA')
 if GMAIL_MEGA is None:
-    raise Exception("pupodani7@gmail.com") 
+    raise Exception("gmail de mega") 
 
 # ARCHIVOS
 MEGABYTES = int(getenv('MEGABYTES'))
